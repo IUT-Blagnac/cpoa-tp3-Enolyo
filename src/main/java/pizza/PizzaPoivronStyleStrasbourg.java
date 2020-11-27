@@ -7,8 +7,8 @@ public class PizzaPoivronStyleStrasbourg extends Pizza{
 
 	}
 	@Override
-	protected void couper() {
-		super.couper();
+	public void cut() {
+		super.cut();
 		System.out.println("Decoupage en parts carrees");
 	}
 }
