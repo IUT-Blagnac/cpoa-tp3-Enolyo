@@ -10,7 +10,7 @@ public class PizzaFactoryStrasbourg extends PizzaFactory{
 		return instance;
 	}
 	
-	public Pizza creerPizza(String type) {
+	public Pizza createPizza(String type) {
 		Pizza Pizza = null;
 		if (type.equals("fromage")) {
 			Pizza = new PizzaCheeseStyleStrasbourg();

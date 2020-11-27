@@ -23,7 +23,7 @@ public abstract class Pizza {
 
 	public void prepare() {
 		System.out.println("Preparation de " + this.nom );
-		System.out.println("Etalage de la paÌ‚te...");
+		System.out.println("Etalage de la pate...");
 		System.out.println("Ajout de la sauce... ");
 		System.out.println("Ajout des garnitures:");
 		for (int i=0; i<garnitures.size(); i++) {
@@ -37,7 +37,7 @@ public abstract class Pizza {
 	}
 
 	public void cut() {
-		System.out.println("Découpage" );
+		System.out.println("Decoupage" );
 	}
 
 	public void wrap() {

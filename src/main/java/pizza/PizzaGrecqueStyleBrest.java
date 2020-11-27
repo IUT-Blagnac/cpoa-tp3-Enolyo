@@ -3,7 +3,7 @@ public class PizzaGrecqueStyleBrest extends Pizza {
 
 	public PizzaGrecqueStyleBrest() {
 		this.nom = "Pizza grecque Brest";
-		this.garnitures.add("Parmigiano reggiano rapé");
+		this.garnitures.add("Parmigiano reggiano rape");
 	}
 	
 	@Override

@@ -4,7 +4,7 @@ public class PizzaCheeseStyleBrest extends Pizza{
 
 	public PizzaCheeseStyleBrest() {
 		this.nom = "Pizza fromage";
-		this.garnitures.add("Parmigiano reggiano rapé");
+		this.garnitures.add("Parmigiano reggiano rape");
 		
 	}
 	@Override
